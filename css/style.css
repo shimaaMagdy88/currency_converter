@@ -1,0 +1,77 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+body, .box :is(.ex-btn, .change select){
+    background-color:cornsilk;
+}
+.box{
+    background-color: brown;
+    color: white;
+    border-color: brown;
+    border-radius: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    border: 1px solid black;
+    padding: 25px;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.box :is(h1, form, .change, .text){
+    padding-bottom: 40px;
+}
+.box form input{
+    width: 100%;
+    padding: 4px;
+    margin-top: 3px;
+    outline: none;
+}
+.box .change{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.box .change select{
+    padding: 5px 10px;
+}
+.box .text{
+    text-align: center;
+}
+.box .ex-btn{
+    padding: 5px 15px;
+    display: block;
+    margin: auto;
+    font-size: 15px;
+    padding: 10px 25px;
+    box-shadow: 9px 8px 9px black;
+}
+.box :is(.ex-btn, .change select){
+    color: brown;
+    font-weight: bold;
+    border: hidden;
+    outline: none;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.box .ex-btn:hover{
+    background-color: rgba(255, 248, 220, 0.844);
+    transition: background 0.3s;
+    -webkit-transition: background 0.3s;
+    -moz-transition: background 0.3s;
+    -ms-transition: background 0.3s;
+    -o-transition: background 0.3s;
+}
