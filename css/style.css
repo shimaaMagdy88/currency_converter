@@ -75,3 +75,29 @@ body, .box :is(.ex-btn, .change select){
     -ms-transition: background 0.3s;
     -o-transition: background 0.3s;
 }
+
+/* media query */
+@media (max-width: 920px) {
+    .box{
+        width: 50%;
+        margin: auto;
+    }
+}
+@media (max-width: 768px) {
+    .box{
+        width: 60%;
+        margin: auto;
+    }
+}
+@media (max-width: 576px) {
+    .box{
+        width: 70%;
+        margin: auto;
+    }
+}
+@media (max-width: 350px) {
+    .box{
+        width: 80%;
+        margin: auto;
+    }
+}
